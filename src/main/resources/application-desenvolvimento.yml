@@ -1,1 +1,10 @@
-
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
+    username: rm99119
+    password: 200705
+  jpa:
+    hibernate:
+      ddl-auto: update
+      open-in-view: false
+      show-sql: true
